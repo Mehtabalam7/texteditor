@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    width: auto;
+    background-color: #003566;
+    color: #4070fa;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+section textarea{
+    height: 450px;
+    width: 500px;
+    width: inherit;
+    outline: none;
+    border:none;
+    resize: none;
+    font-size: 20px;
+    border: 5px solid dodgerblue;
+    padding: 20px;
+    background-color: #04052e;  
+    color: #ffdd00;  
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #04052e;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+section button{
+    border: none;
+    /* background-color: rgba(176, 164, 166, 0.54); */
+    border: 2px solid dodgerblue;
+    margin: 10px;
+}
+
+#bold,#Italic{
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffdd00;
+    background-color: #04052e;
+    box-shadow: 0 0 30px #003566;
+}
+
+#left-align,#right-align,#align-justify{
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    color: #ffdd00;
+    background-color: #04052e;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #003566;
+}
+
+#uppercase,#lowercase,#download,#capitalize,#clear-text{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    color: #ffdd00;
+    background-color: #04052e;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #003566;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#bold:hover,#Italic:hover{
+    border: 2px solid #ffdd00;
+}
+
+#left-align:hover,#right-align:hover,#align-justify:hover{
+    border: 2px solid #ffdd00;
+}
+
+
+#uppercase:hover,#lowercase:hover,#download:hover,#capitalize:hover,#clear-text:hover{
+    border: 2px solid #ffdd00;
+}
+
+
+
+@media (max-width: 600px){
+    .text-area{
+        width: 90%;    
+    }
+}
+
